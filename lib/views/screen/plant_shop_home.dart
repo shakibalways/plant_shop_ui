@@ -1,5 +1,5 @@
 
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:plant_shop_ui/model/plant_shop_model.dart';
 import 'package:staggered_grid_view_flutter/widgets/staggered_grid_view.dart';
@@ -267,7 +267,7 @@ class _PlantShopHomeScreenState extends State<PlantShopHomeScreen> {
               color: isActive ? Colors.green : Colors.grey),
         ),
         Container(
-          margin: EdgeInsets.only(top: 5),
+          margin: const EdgeInsets.only(top: 5),
           height: 5,
           width: 35,
           decoration: isActive
@@ -275,7 +275,7 @@ class _PlantShopHomeScreenState extends State<PlantShopHomeScreen> {
                   color: Colors.green,
                   borderRadius: BorderRadius.circular(10),
                 )
-              : BoxDecoration(),
+              : const BoxDecoration(),
         )
       ],
     );
