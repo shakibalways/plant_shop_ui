@@ -45,6 +45,7 @@ class _BottomNavState extends State<BottomNav> {
           BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.notifications), label: ""),
           BottomNavigationBarItem(icon: Icon(Icons.person_outlined), label: ""),
+          // yes is correct
         ],
       ),
       body: page[selectedIndex],
